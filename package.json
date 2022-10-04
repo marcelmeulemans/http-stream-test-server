@@ -1,0 +1,19 @@
+{
+  "name": "http-stream-test-server",
+  "version": "0.1.0",
+  "description": "A server that servers up a test live HTTP stream",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node index.js | pino-pretty -S"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.5",
+    "express": "^4.18.1",
+    "pino": "^8.6.1"
+  },
+  "devDependencies": {
+    "pino-pretty": "^9.1.0"
+  }
+}
